@@ -1,0 +1,71 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #171717;
+  color: white;
+  padding: 2rem;
+  /* gap: 2rem; */
+  height: 70dvh;
+}
+
+/* .about .about-head{
+
+} */
+
+.about .about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4.5rem;
+}
+
+.about .about-text p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.about-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  margin: 1rem;
+}
+
+.about-link .icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-link .icon svg {
+  width: 45%;
+  height: 45%;
+  color: #ff4081;
+}
+
+.about-link .mail > a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.about-link .mail > a:hover {
+  color: #ff4081;
+}

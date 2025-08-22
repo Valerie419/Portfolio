@@ -1,0 +1,39 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #171717;
+    color: white;
+    height: 83dvh;
+}
+
+.banner .banner-text h1{
+    font-size: 3rem;
+}
+
+/* .banner .banner-img{
+    border-top: 2rem;
+} */
+
+.banner .banner-img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.banner .buttons{
+    display: flex;
+    
+}
+
+.banner .button{
+    background-color:  #ff4081;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+} 
